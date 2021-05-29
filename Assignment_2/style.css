@@ -1,0 +1,70 @@
+body > table{
+    width: 80%;
+}
+form{
+    width:80%;
+    border: 1px solid grey;
+    margin-left:20;
+    margin-top: 1%;
+    padding: 10;
+    background-color: #ccc;
+    
+    
+    
+}
+.b{
+}
+
+label,input{
+    width:40%;
+    font-size:20px;;
+    size: 10;
+    
+}
+
+
+
+table{
+    border-collapse:unset;
+    margin-top: 10;
+    margin-right:30;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+input[type=text], input[type=number],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
